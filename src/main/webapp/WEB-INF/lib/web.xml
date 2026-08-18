@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>First_Project</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>first</servlet-name>
+  <servlet-class>Controller.FirstServlet
+  </servlet-class>
+  
+  <init-param>
+  <param-name>languagename</param-name>
+  <param-value>Java</param-value>
+  
+  </init-param>
+  
+  
+  
+  
+  
+   </servlet>
+   
+  <servlet-mapping>
+ <servlet-name>first</servlet-name>
+ <url-pattern>/firstservlet</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+  <param-name>classname</param-name>
+  <param-value>JWD</param-value>
+ 
+  </context-param>
+  
+  <servlet>
+  <servlet-name>Gain</servlet-name>
+ <jsp-file>/Gain.jsp</jsp-file>
+  
+  
+  <init-param>
+  <param-name>languagename</param-name>
+  <param-value>Java</param-value>
+  
+  </init-param>
+  
+  </servlet>
+  
+    <servlet-mapping>
+ <servlet-name>Gain</servlet-name>
+ <url-pattern>/Gain</url-pattern>
+  </servlet-mapping>
+   
+  
+  
+</web-app>

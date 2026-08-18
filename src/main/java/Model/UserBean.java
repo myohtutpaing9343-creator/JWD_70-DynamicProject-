@@ -7,6 +7,9 @@ import lombok.Setter;
 public class UserBean {
 	 private int id;
 	 private String title;
+	 private  String address;
+		
 	}
+	
 
 

@@ -8,6 +8,7 @@ public class UserBean {
 	 private int id;
 	 private String title;
 	 private  String address;
+	 private String gender;
 		
 	}
 	
